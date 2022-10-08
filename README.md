@@ -6,6 +6,12 @@ I have created the prototype of a web application using python libraries- bokeh 
 ## The prototype
 
 
+
+https://user-images.githubusercontent.com/76909183/194716680-485e6617-154c-44d2-9393-43a7c395b659.mp4
+
+
+
+
 ## Used tools
 #### Python, Matplotlib, Bokeh, Panel.
 
