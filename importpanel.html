@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div class="bk-root" id="09d31b34-d2a8-4391-a237-89b14c9160c4" data-root-id="1001"></div>
+  
+    <script type="application/json" id="1003">
+      {"428e6c91-bfac-4593-b619-a3e506a53a5a":{"defs":[],"roots":{"references":[{"attributes":{"code":"console.log('button: You have clicked on the button!')"},"id":"1002","type":"CustomJS"},{"attributes":{"button_type":"danger","icon":null,"js_event_callbacks":{"button_click":[{"id":"1002"}]},"label":"Click on the button"},"id":"1001","type":"Button"}],"root_ids":["1001"]},"title":"Bokeh Application","version":"2.4.3"}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('1003').textContent;
+              const render_items = [{"docid":"428e6c91-bfac-4593-b619-a3e506a53a5a","root_ids":["1001"],"roots":{"1001":"09d31b34-d2a8-4391-a237-89b14c9160c4"}}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
