@@ -3,8 +3,8 @@
 
 I have created the prototype of a web application using python libraries- bokeh and panel and pushed the files into this repository.
 
-## The product
-Video
+## The prototype
+
 
 ## Used tools
 #### Python, Matplotlib, Bokeh, Panel.
