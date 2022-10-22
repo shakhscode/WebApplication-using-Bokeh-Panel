@@ -1,7 +1,11 @@
-# Python Web App Prototype
-**Is it possible to design a fully operational web application using Python ? The answer is yes. But is it possible to build a web application in python without using web development framework like Flask and Django. The answer is still yes. We can create web applications without using any web framework just using Bokeh and Panel which require only few lines of python codes.**
+# Python Web App Prototype using Bokeh & Panel
+#### Aim: 
+Designing a multi-interface interactive web application prototype using python Bokeh and Panel that takes login information from the user and shows a visual report.
+#### Used tools:
+Python, Matplotlib, Bokeh, Panel.
 
-I have created the prototype of a web application using python libraries- bokeh and panel and pushed the files into this repository.
+#### Experience gained:
+Dashboarding with python panel, Designing interactive web application with Bokeh.
 
 ## The prototype
 
@@ -12,10 +16,11 @@ https://user-images.githubusercontent.com/76909183/194716680-485e6617-154c-44d2-
 
 
 
-## Used tools
-#### Python, Matplotlib, Bokeh, Panel.
+## Detailed Explanation
 
-## Description 
+**Is it possible to design a fully operational web application using Python ? The answer is yes. But is it possible to build a web application in python without using web development framework like Flask and Django. The answer is still yes. We can create web applications without using any web framework just using Bokeh and Panel which require only few lines of python codes.**
+
+### Here is how we can develop a web application using python Bokeh and Panel only
 - Basically I created 5 files for 5 different pages in the application.
 
 - The file [startApp.py](startApp.py) starts the application on the local host.
