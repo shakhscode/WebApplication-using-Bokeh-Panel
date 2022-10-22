@@ -1,4 +1,4 @@
-# Python Web App Prototype using Bokeh & Panel
+# Python Web Application using Bokeh & Panel
 #### Aim: 
 Designing a multi-interface interactive web application prototype using python Bokeh and Panel that takes login information from the user and shows a visual report.
 #### Used tools:
